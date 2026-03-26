@@ -245,26 +245,26 @@
             <div class="is-size-5 publication-authors">
               <!-- TODO: Replace with your paper authors and their personal links -->
               <span class="author-block">
-                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Yuehao Liu</a>,</span>
+                <a href="FIRST AUTHOR PERSONAL LINK" target="_blank">Yuehao Liu<sup>1</sup></a>,</span>
                 <span class="author-block">
-                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Shanyan Guan</a>,</span>
+                  <a href="SECOND AUTHOR PERSONAL LINK" target="_blank">Shanyan Guan<sup>2</sup></a>,</span>
                   <span class="author-block">
-                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Weijia Zhang</a>,</span>
+                    <a href="THIRD AUTHOR PERSONAL LINK" target="_blank">Weijia Zhang<sup>1</sup></a>,</span>
                     <span class="author-block">
-                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Xuanming Shang</a>,</span>
+                      <a href="FOURTH AUTHOR PERSONAL LINK" target="_blank">Xuanming Shang<sup>1</sup></a>,</span>
                       <span class="author-block">
-                        <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Yanhao Ge</a>,</span>
+                        <a href="FIFTH AUTHOR PERSONAL LINK" target="_blank">Yanhao Ge<sup>2</sup></a>,</span>
                         <span class="author-block">
-                            <a href="SIXTH AUTHOR PERSONAL LINK" target="_blank">Wei Li</a>,</span>
+                            <a href="SIXTH AUTHOR PERSONAL LINK" target="_blank">Wei Li<sup>2</sup></a>,</span>
                             <span class="author-block">
-                                <a href="SEVENTH AUTHOR PERSONAL LINK" target="_blank">Chao Ma</a>,</span>
+                                <a href="SEVENTH AUTHOR PERSONAL LINK" target="_blank">Chao Ma<sup>1</sup></a>,</span>
                   </div>
 
                   <div class="is-size-5 publication-authors">
                     <!-- TODO: Replace with your institution and conference/journal info -->
                     <span class="author-block">
-                      ${}^{1}$ MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University<br>
-                      ${}^{2}$ vivo Mobile Communication Co., Ltd.<br>
+                      <sup>1</sup> MoE Key Lab of Artificial Intelligence, AI Institute, Shanghai Jiao Tong University<br>
+                      <sup>2</sup> vivo Mobile Communication Co., Ltd.<br>
                       CVPR 2026</span>
                     <!-- TODO: Remove this line if no equal contribution -->
                     <!-- <span class="eql-cntrb"><small><br><sup>*</sup>Indicates Equal Contribution</small></span> -->
@@ -351,7 +351,7 @@
         <div class="content has-text-justified">
           <!-- TODO: Replace with your paper abstract -->
           <p>
-            Continual learning in multimodal large language models (MLLMs) aims to sequentially acquire knowledge while mitigating catastrophic forgetting, yet existing methods face inherent limitations: architecture-based approaches incur additional computational overhead and often generalize poorly to new tasks, rehearsal-based methods rely on storing historical data, raising privacy and storage concerns, and conventional regularization-based strategies alone are insufficient to fully prevent parameter interference. We propose \our, a two-stage continual learning framework based on History-Free Gradient Orthogonalization (HiFGO), which enforces gradient-level orthogonality without historical task data. Our proposed two-stage finetuning strategy decouples task adaptation from regularization, achieving a principled balance between plasticity and stability. Experiments on UCIT show that Octopus establishes state-of-the-art performance, surpassing prior SOTA by 2.14% and 6.82% in terms of Avg and Last.
+            Continual learning in multimodal large language models (MLLMs) aims to sequentially acquire knowledge while mitigating catastrophic forgetting, yet existing methods face inherent limitations: architecture-based approaches incur additional computational overhead and often generalize poorly to new tasks, rehearsal-based methods rely on storing historical data, raising privacy and storage concerns, and conventional regularization-based strategies alone are insufficient to fully prevent parameter interference. We propose Octopus, a two-stage continual learning framework based on History-Free Gradient Orthogonalization (HiFGO), which enforces gradient-level orthogonality without historical task data. Our proposed two-stage finetuning strategy decouples task adaptation from regularization, achieving a principled balance between plasticity and stability. Experiments on UCIT show that Octopus establishes state-of-the-art performance, surpassing prior SOTA by 2.14% and 6.82% in terms of Avg and Last.
           </p>
         </div>
       </div>
